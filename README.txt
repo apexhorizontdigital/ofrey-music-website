@@ -1,1 +1,1 @@
-Ofrey Music — solo-focused final update. Collaboration photos are retained only to reinforce musical versatility; no duo booking offer is advertised.
+Ofrey Music website update using the selected Concept 1 brand direction. English-first, solo-guitar positioning, @ofreymusic on YouTube and Instagram. Collaboration photos remain as evidence of versatility, not as a duo service offer.
