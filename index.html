@@ -81,6 +81,18 @@ nav{height:104px;display:flex;align-items:center;justify-content:space-between;g
 .hero-music:before,.hero-music:after{content:"";height:1px;background:var(--gold);flex:1}
 .tagline{font-family:"Playfair Display",Georgia,serif;letter-spacing:.18em;text-transform:uppercase;color:#efebe2;font-size:clamp(.95rem,1.6vw,1.2rem)}
 .hero-copy{font-size:clamp(1.05rem,1.7vw,1.35rem);max-width:640px;color:#e2ded6;margin-top:22px}
+.experience-badge{
+  display:inline-flex;align-items:center;gap:14px;margin-top:22px;
+  padding:12px 18px;border:1px solid var(--line);border-radius:999px;
+  background:rgba(8,8,8,.55);backdrop-filter:blur(8px)
+}
+.experience-badge strong{
+  font-family:"Playfair Display",Georgia,serif;
+  font-size:1.35rem;color:var(--gold);letter-spacing:.02em
+}
+.experience-badge span{
+  color:#f2eee5;font-size:.92rem;font-weight:600;letter-spacing:.04em
+}
 .actions{display:flex;gap:16px;flex-wrap:wrap;margin-top:34px}
 .proofbar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#090909}
 .proofgrid{display:grid;grid-template-columns:repeat(4,1fr)}
@@ -149,7 +161,7 @@ footer{padding:38px 0;border-top:1px solid #242424;color:#999}
   .wrap{width:min(var(--max),calc(100% - 28px))}
   nav{height:78px}.brand img{width:170px;height:56px}
   .hero{padding-top:78px}.hero-media{inset:78px 0 0 0}.hero:after{inset:78px 0 0 0}
-  .hero-content{padding:130px 0 55px}.hero-copy{font-size:1rem}
+  .hero-content{padding:130px 0 55px}.hero-copy{font-size:1rem}.experience-badge{width:100%;justify-content:center}
   .actions .btn,.socials .btn{width:100%}
   .proofgrid,.cards3,.cards4,.video-grid,.songs,.formgrid{grid-template-columns:1fr}
   .proof{border-right:0;border-bottom:1px solid var(--line)}.proof:last-child{border-bottom:0}
@@ -202,6 +214,7 @@ footer{padding:38px 0;border-top:1px solid #242424;color:#999}
 <div class="hero-music">MUSIC</div>
 <div class="tagline">Music Made for the Moment.</div>
 <p class="hero-copy">Live instrumental guitar for weddings, private dinners, proposals, corporate events and special occasions across Florida, with strong availability from Miami to Orlando.</p>
+<div class="experience-badge"><strong>26 Years</strong><span>of Guitar Experience</span></div>
 <div class="actions">
 <a class="btn btn-gold" href="#contact">CHECK AVAILABILITY</a>
 <a class="btn btn-outline" href="#videos">WATCH VIDEOS</a>
